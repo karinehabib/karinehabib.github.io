@@ -1,0 +1,23 @@
+
+
+body{
+text-align: center;
+font-family: 'Segoe UI';
+font-size: 13px;
+background-image: linear-gradient(0deg, rgba(138,34,195,1) 0%, rgba(253,45,45,1) 100%);
+
+
+
+}
+
+
+p { 
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+font-family: 'Segoe UI';
+font-size: 12px;
+}
+
