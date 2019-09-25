@@ -105,7 +105,6 @@ p#sobre {
 }
 
 
-
 p#HKD2 {
     color:whitesmoke;
     background-color:teal;
@@ -116,13 +115,28 @@ p#HKD2 {
     font-family:'Segoe UI';
 }
 
+p#gostou {
+    font-family: Verdana;
+    color: rgb(241, 230, 253);
+    font-size: 18px;
+    border: 5px;
+    background-color: rgba(53, 158, 255, 0.315);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+      
+}
+
 
 p#ending {
      color: whitesmoke;
      font-family:'Segoe UI';
      text-align: center;
-     font-size: 12px
-}
+     font-size: 12px;
+     
+    }
+
 
 .button {
     background-color:  rgba(140, 0, 255, 0.966);
