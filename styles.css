@@ -16,6 +16,37 @@ url(images/kiss.png);
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(174, 0, 255, 0.534);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+li a:hover:not(.active){
+    background-color:rgba(43, 183, 226, 0.534);
+}
+.active {
+    background-color: rgba(255, 0, 98, 0.534);
+}
+
+
+
 h2 {
     
     background-color: black;
@@ -33,25 +64,7 @@ h1 {
 }
 
 
-p#sobre {
-    text-indent: 50px;
-    padding: 25px;
-    width: 700px;
-    height: 200px;
-    font-family:'Segoe UI';
-    font-size: 18px;
-    text-align:justify;
-    background-color: rgba(255, 255, 255, 0.438);
-    color: rgb(46, 44, 48);
-    margin-top: 2px;
-}
 
-.clearfix::after{
-    content:"";
-    clear: both;
-    display: table;
-
-}
 img#lala {
     float: right;
     padding: 10px;
@@ -69,6 +82,30 @@ text-align:center;
 font-size:28px;
 }
 
+
+p#sobre {
+    text-indent: 50px;
+    padding: 25px;
+    width: 700px;
+    height: 200px;
+    font-family:'Segoe UI';
+    font-size: 18px;
+    text-align:justify;
+    background-color: rgba(255, 255, 255, 0.438);
+    color: rgb(46, 44, 48);
+    margin-top: 2px;
+}
+
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+
+}
+
+
+
 p#HKD2 {
     color:whitesmoke;
     background-color:teal;
@@ -76,7 +113,7 @@ p#HKD2 {
     text-align:center; 
     text-align:justify;
     font-size:32px;
-    font-family:Segoe UI;
+    font-family:'Segoe UI';
 }
 
 
@@ -93,8 +130,8 @@ p#ending {
     border-color: rgba(140, 0, 255, 0.479);
     padding: 16px;
     font-size: 12px;
-    font-family: 'Segoe UI';
-    color: whitesmoke;
+    font-family: verdana;
+    color: rgb(235, 205, 255);
     transition: all 0.5s; 
     cursor: pointer;
     margin: 5px;
@@ -115,26 +152,39 @@ p#ending {
     right: -10px;
     left: -10px;
     transition: 0.5s;
-    
 }
+.button:hover {
+      background-color: rgba(0, 195, 255, 0.726);
 
+}
 .button:hover span {
     padding-right: 25px;
+    color:rgb(0, 247, 255); 
     
 }
 .button:hover span::after{
      opacity: 1;
      right: 0;
+     
 }
 
 address {
-    text-align: justify;
-    font-family: 'Segoe UI';
-    font-size:14px;
+    text-align: left;
+    font-family: Verdana;
+    font-size:12px;
     color:whitesmoke;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer {
     background-color: black;
-    width: 2000px;
-    padding: 25px;
-
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
+html, body {
+    margin: 0;
+}
