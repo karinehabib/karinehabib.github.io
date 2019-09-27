@@ -49,7 +49,7 @@ h1 {
     color:whitesmoke;
     text-align:center;
     font-family:'just_another_handregular';
-    font-size: 90px;
+    font-size: 100px;
     margin-right: 60px;
 }
 
@@ -66,15 +66,15 @@ h2 {
     border-radius: 90px;
     
 }
-
-img#lala {
-    width: 230px;
-    height: 230px;
-    border-color: #000000;
-    border-radius: 150px;
-    padding-left: 10px;
+img#facebook {
+    border-radius: 50px;
+    margin-right: 30px;
 }
 
+img#shesfine {
+    border-radius: 50px;
+    margin-left: 30px;
+}
 
 p#sobre {
     font-family:'montserratlight';
