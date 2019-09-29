@@ -20,7 +20,7 @@ document.querySelectorAll(".modal_content").forEach(
             document.body.style = "overflow: hidden;"
             modalImg.style.width = "80vh"
             modalImg.src = r.src
-            modal.style.top = pageYOffset
+            modal.style.top = pageYOffset+"px"
             modal.style.display = "flex"
         });
     }
