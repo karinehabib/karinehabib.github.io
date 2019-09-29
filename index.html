@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="dark/modal.css">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
-<body>
+<body> 
   <nav><ul>
         <li><a href="#Sobre";>Sobre</a></li>
         <li><a href="#Artes";>Artes e Design</a></li>
@@ -38,44 +40,29 @@
         </section> 
 
 <section id ="Artes";>
+
+<img class="modal_content"  src="images/coral.jpg" alt="Coral Whale" style="width:100%;max-width:300px";>
+<img class="modal_content"  src="images/casserole.jpg" alt="Casserole" style="width: 100%;max-width:300px";>
+<img class="modal_content"  src="images/she's fine.png" alt="She's Fine" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/imperfect.jpg" alt="Imperfect" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/entardecer.jpg" alt="Entardecer" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/tv.jpg" alt="TV Dreaming" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/hope.jpg" alt="Hope" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/woman.jpg" alt="Woman in Chains" style="width: 100%;max-width: 300px";>
+<img class="modal_content"  src="images/alex.jpg" alt="Punk Alex" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg10" src="images/clouds.jpg" alt="Laugh with Clouds" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg11" src="images/patterns.jpg" alt="Patterns" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg12" src="images/wind.jpg" alt="Nature Wind" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg13" src="images/ocean.jpg" alt="In the deepest of the Ocean" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg14" src="images/space.jpg" alt="Space Touching" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg15" src="images/beauty.jpg" alt="Beauty"  style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg16" src="images/pantaloon.jpg" alt="The Pantaloon" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg17" src="images/nightflower.jpg" alt="Nightflower" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg18" src="images/yellow.jpg" alt="Yellow Eye" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg19" src="images/simplicity.jpg" alt="Simplicity" style="width: 100%;max-width: 300px;">
+<img class="modal_content" id="myImg20" src="images/shadow.jpg" alt="Shadow Mandala" style="width: 100%;max-width: 300px;">
+
 </section>
-
-<img id="myImg" src="images/salsicha.png" alt="Salsicha" style="width:100%;max-width:300px";>
-<div id="myModal" class="modal">
-    <span class = "close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-</div>
-
-<script>
-var modal = document.getElementById("myModal");
-
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-var span = document.getElementsByClassName("close")[0];
-span.onclick = function() {
-    modal.style.display = "none";
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <section id="Contato";>
 <p id="redes" style="width: 100%; height: 30%;text-align: center;">Continue acompanhando meu trabalho através de minhas redes sociais:<br></p>
@@ -102,4 +89,6 @@ span.onclick = function() {
 </footer>
 
 </body>
+<script src="dark/modal.js"></script>
+
 </html>

@@ -1,0 +1,32 @@
+#modal {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: rgb(0, 0, 0, 0.8)
+}
+
+#modal_close {
+    position: absolute;
+    top: 10;
+    right: 20;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#modal_image {
+    align-self: center;
+    width: 0vh;
+    transition: all 0.5s ease;
+}
+
+.modal_content:hover {
+    filter: brightness(70%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
