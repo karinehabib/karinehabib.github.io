@@ -142,22 +142,54 @@ img#avatar {
     display: table;
 }
 
-p#art {
-    text-align: center;
+
+
+p#artes {
+    background-color:  rgba(140, 0, 255, 0.966);
+    border-radius: 14px;
+    border-color: rgba(140, 0, 255, 0.479);
+    border:2px;
+    font-size: 34px;
+    padding: 10px;
     font-family: 'montserratlight';
-    font-size: 38px;
-    padding-bottom: 25px;
-    padding-top: 20px;
-    color: rgb(159, 0, 252);
-    border-radius: 10px;
-    background-color: rgba(84, 26, 138, 0.322);
-    border: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    color: rgb(235, 205, 255);
+    transition: all 0.8s; 
+    margin: 3px;
+    margin-right: 550px;
+    margin-left: 550px;
+    margin-bottom: 60px;
 }
+
+p#artes span {
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+}
+
+p#artes span ::after {
+    content: '/00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 10px;
+    left: 10px;
+    transition: 0.8s;
+}
+
+p#artes:hover {
+      background-color: rgba(0, 195, 255, 0.726);
+}
+
+p#artes:hover span {
+    padding-right: 25px;
+    color:rgb(0, 204, 255); 
+}
+
+p#artes:hover span::after {
+     opacity: 1;
+     right: 0; 
+}
+
 
 
 #modal_image {
