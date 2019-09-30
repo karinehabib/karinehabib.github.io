@@ -102,8 +102,8 @@ img#facebook {
     margin-right: 30px;
 }
 
-img#shesfine {
-    border-radius: 50px;
+img#avatar {
+    border-radius: 50%;
     margin-left: 30px;
 }
 
@@ -128,13 +128,6 @@ div#sobre {
     margin-top: 20px;
 }
 
-
-img#avatar {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-
-}
 
 .clearfix::after{
     content:"";
