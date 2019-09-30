@@ -203,4 +203,9 @@ footer {
     right: 0px;
 }
 
-
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .footer, .adress, .button, div#sobre, img#avatar, p#ending, p#sobre, #redes, p#facebook, h1, h2, ul {
+      width: 100%;
+    }
+  }
