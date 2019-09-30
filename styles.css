@@ -21,14 +21,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-head {
-    text-align: left;
-    font-family:'Ubuntu';
-    background-color: whitesmoke;
-    color:black;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -131,8 +123,6 @@ div#sobre {
     display: table;
 }
 
-
-
 p#artes {
     background-color:  rgba(140, 0, 255, 0.966);
     border-radius: 14px;
@@ -160,8 +150,8 @@ p#artes span ::after {
     position: absolute;
     opacity: 0;
     top: 0;
-    right: 10px;
-    left: 10px;
+    right: 0px;
+    left: 0px;
     transition: 0.8s;
 }
 
@@ -177,10 +167,6 @@ p#artes:hover span {
 p#artes:hover span::after {
      opacity: 1;
      right: 0; 
-}
-
-#modal_image {
-    border-radius: 10px;  
 }
 
 p#redes {
@@ -210,8 +196,8 @@ p#ending {
     color: rgb(235, 205, 255);
     transition: all 0.5s; 
     cursor: pointer;
-    margin: 3px;
-    margin-right: 60px;
+    margin: 0px;
+    margin-right: 10px;
 }
 
 .button span {
@@ -226,8 +212,8 @@ p#ending {
     position: absolute;
     opacity: 0;
     top: 0;
-    right: 10px;
-    left: 10px;
+    right: 5px;
+    left: 5px;
     transition: 0.5s;
 }
 
